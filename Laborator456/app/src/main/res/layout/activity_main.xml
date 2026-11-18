@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnAdaugaId"
+        android:layout_width="181dp"
+        android:layout_height="77dp"
+        android:background="#EB8484"
+        android:backgroundTintMode="add"
+        android:text="Adauga"
+        app:icon="@android:drawable/btn_star_big_on"
+        app:iconTint="#F24781"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.374"
+        app:rippleColor="#E42A69"
+        app:strokeColor="#B4F182A8" />
+
+    <Button
+        android:id="@+id/btnListaId"
+        android:layout_width="155dp"
+        android:layout_height="80dp"
+        android:text="Lista"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnAdaugaId"
+        app:layout_constraintVertical_bias="0.275" />
+</androidx.constraintlayout.widget.ConstraintLayout>
